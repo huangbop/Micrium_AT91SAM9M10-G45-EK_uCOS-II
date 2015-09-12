@@ -1,0 +1,13 @@
+"D:\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"D:\IAR Systems\Embedded Workbench 7.2\arm\bin\armjlink.dll" 
+
+"E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Exe\OS.out" 
+
+--plugin "D:\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--macro "E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\..\..\BSP\IAR\AT91SAM9M10_SRAM.mac" 
+
+
+
+

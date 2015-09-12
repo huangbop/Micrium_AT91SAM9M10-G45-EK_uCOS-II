@@ -36,7 +36,7 @@
 *********************************************************************************************************
 */
 
-#define  APP_CFG_SERIAL_EN                         DEF_ENABLED
+#define  APP_CFG_SERIAL_EN                         0//DEF_ENABLED--------------
 
 
 /*
@@ -99,7 +99,7 @@
 *********************************************************************************************************
 */
 
-#define  APP_SERIAL_CFG_TRACE_EN                DEF_ENABLED
+#define  APP_SERIAL_CFG_TRACE_EN                0//DEF_ENABLED
 #define  APP_SERIAL_CFG_TRACE_PORT_NAME         "DBGU"
 
 
@@ -131,20 +131,20 @@
 #define  TRACE_LEVEL_DBG                2
 #endif
 
-#include <cpu.h>
-void  App_SerPrintf (CPU_CHAR  *p_fmt, ...);
+//#include <cpu.h>
+//void  App_SerPrintf (CPU_CHAR  *p_fmt, ...);
 
 
-#define  APP_CFG_TRACE_LEVEL             TRACE_LEVEL_INFO
-#define  APP_CFG_TRACE                   App_SerPrintf
+//#define  APP_CFG_TRACE_LEVEL             TRACE_LEVEL_INFO
+//#define  APP_CFG_TRACE                   App_SerPrintf
 
-#define  BSP_CFG_TRACE_LEVEL             TRACE_LEVEL_INFO
-#define  BSP_CFG_TRACE                   BSP_Ser_Printf               
+//#define  BSP_CFG_TRACE_LEVEL             TRACE_LEVEL_INFO
+//#define  BSP_CFG_TRACE                   BSP_Ser_Printf               
 
-#define  APP_TRACE_INFO(x)               ((APP_CFG_TRACE_LEVEL >= TRACE_LEVEL_INFO)  ? (void)(APP_CFG_TRACE x) : (void)0)
-#define  APP_TRACE_DBG(x)                ((APP_CFG_TRACE_LEVEL >= TRACE_LEVEL_DBG)   ? (void)(APP_CFG_TRACE x) : (void)0)
+//#define  APP_TRACE_INFO(x)               ((APP_CFG_TRACE_LEVEL >= TRACE_LEVEL_INFO)  ? (void)(APP_CFG_TRACE x) : (void)0)
+//#define  APP_TRACE_DBG(x)                ((APP_CFG_TRACE_LEVEL >= TRACE_LEVEL_DBG)   ? (void)(APP_CFG_TRACE x) : (void)0)
 
-#define  BSP_TRACE_INFO(x)               ((BSP_CFG_TRACE_LEVEL  >= TRACE_LEVEL_INFO) ? (void)(BSP_CFG_TRACE x) : (void)0)
-#define  BSP_TRACE_DBG(x)                ((BSP_CFG_TRACE_LEVEL  >= TRACE_LEVEL_DBG)  ? (void)(BSP_CFG_TRACE x) : (void)0)
+//#define  BSP_TRACE_INFO(x)               ((BSP_CFG_TRACE_LEVEL  >= TRACE_LEVEL_INFO) ? (void)(BSP_CFG_TRACE x) : (void)0)
+//#define  BSP_TRACE_DBG(x)                ((BSP_CFG_TRACE_LEVEL  >= TRACE_LEVEL_DBG)  ? (void)(BSP_CFG_TRACE x) : (void)0)
 
 #endif

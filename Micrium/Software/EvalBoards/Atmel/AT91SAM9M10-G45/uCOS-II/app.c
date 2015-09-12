@@ -76,15 +76,15 @@ static  void  App_TaskCreate   (void);
 int  main (void)
 {
 #if (OS_TASK_NAME_EN == DEF_ENABLED)
-    CPU_INT08U	os_err;
+    CPU_INT08U---------	os_err;
 #endif    
 #if (CPU_CFG_NAME_EN == DEF_ENABLED)
-    CPU_ERR     cpu_err;
+    CPU_ERR----     cpu_err;
 #endif
     
     
 #if (CPU_CFG_NAME_EN == DEF_ENABLED)
-    CPU_NameSet((CPU_CHAR *)"AT91SAM9M10 CU-ES2",
+    CPU_NameSet((CPU_CHAR *)"AT91SAM9M10 CU-ES2",---------
                 (CPU_ERR  *)&cpu_err);
 #endif    
 
@@ -132,42 +132,7 @@ int  main (void)
 
 static  void  App_TaskStart (void *p_arg)
 {
-    CPU_INT08U  i;
     
-    
-    (void)p_arg;
-
-    BSP_PostInit();                                             /* Initialize BSP functions                                 */
-
-    OS_CSP_TickInit();
-            
-#if OS_TASK_STAT_EN > 0u
-    OSStatInit();                                               /* Determine CPU capacity                                   */
-#endif
-
-#if (APP_CFG_SERIAL_EN == DEF_ENABLED)
-    App_SerialInit();
-#endif
-            
-    App_ObjCreate();                                            /* Create application objects                               */
-    App_TaskCreate();                                           /* Create application tasks                                 */
-    
-    BSP_LED_Off(0);
-    
-    while (DEF_TRUE) {                                          /* Task body, always written as an infinite loop.           */
-        for (i = 1; i<=3; i++) {
-            BSP_LED_On(i);
-            OSTimeDlyHMSM(0, 0, 0, 250);
-            BSP_LED_Off(i);
-        }
-        
-        OSTimeDlyHMSM(0, 0, 1, 0);
-        
-        for (i = 4; i>=1; i--) {
-            BSP_LED_Toggle(0);
-            OSTimeDlyHMSM(0, 0, 0, 250);
-        }
-    }
 }
 
 

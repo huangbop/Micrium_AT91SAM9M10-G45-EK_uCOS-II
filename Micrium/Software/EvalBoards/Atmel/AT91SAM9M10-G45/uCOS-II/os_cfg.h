@@ -62,7 +62,7 @@
 #define OS_TASK_CREATE_EN         1    /*     Include code for OSTaskCreate()                          */
 #define OS_TASK_CREATE_EXT_EN     1    /*     Include code for OSTaskCreateExt()                       */
 #define OS_TASK_DEL_EN            1    /*     Include code for OSTaskDel()                             */
-#define OS_TASK_NAME_EN           1    /*     Enable task names                                        */
+#define OS_TASK_NAME_EN           0    /*     Enable task names                                        */
 #define OS_TASK_PROFILE_EN        1    /*     Include variables in OS_TCB for profiling                */
 #define OS_TASK_QUERY_EN          1    /*     Include code for OSTaskQuery()                           */
 #define OS_TASK_STAT_EN           1    /*     Enable (1) or Disable(0) the statistics task             */

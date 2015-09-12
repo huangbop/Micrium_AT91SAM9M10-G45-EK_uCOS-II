@@ -1,0 +1,27 @@
+ -B 
+
+"--endian=little" 
+
+"--cpu=ARM926EJ-S" 
+
+"--fpu=None" 
+
+"-p" 
+
+"D:\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\Atmel\AT91SAM9M10.ddf" 
+
+"--drv_verify_download" 
+
+"--semihosting" 
+
+"--device=AT91SAM9M10" 
+
+"--drv_communication=USB0" 
+
+"--drv_interface_speed=adaptive" 
+
+"--drv_catch_exceptions=0x000" 
+
+
+
+

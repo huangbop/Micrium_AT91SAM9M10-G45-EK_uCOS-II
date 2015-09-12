@@ -1,3 +1,4 @@
+#if 0
 /*
 *********************************************************************************************************
 *                                               uC/Serial
@@ -187,3 +188,4 @@ void         App_SerStrWr   (CPU_CHAR   *p_str);
 
 #endif                                                          /* End of APP_SERIAL_MODULE_PRESENT module include ...  */
                                                                 /* ... (see Note #1).                                   */
+#endif // #if 0
