@@ -42,7 +42,7 @@
 *********************************************************************************************************
 */
 
-static  OS_STK  App_TaskStartStk[APP_CFG_TASK_START_STK_SIZE];
+
 
 
 /*
@@ -75,43 +75,7 @@ static  void  App_TaskCreate   (void);
 
 int  main (void)
 {
-#if (OS_TASK_NAME_EN == DEF_ENABLED)
-    CPU_INT08U---------	os_err;
-#endif    
-#if (CPU_CFG_NAME_EN == DEF_ENABLED)
-    CPU_ERR----     cpu_err;
-#endif
-    
-    
-#if (CPU_CFG_NAME_EN == DEF_ENABLED)
-    CPU_NameSet((CPU_CHAR *)"AT91SAM9M10 CU-ES2",---------
-                (CPU_ERR  *)&cpu_err);
-#endif    
-
-    BSP_PreInit();                                              /* System pre-initialization.                               */
-
-    CPU_Init();
-    Mem_Init();
-    
-    OSInit();                                                   /* Initialize "uC/OS-II, The Real-Time Kernel"              */
-
-    OSTaskCreateExt((void (*)(void *)) App_TaskStart,           /* Create the start task                                    */
-                    (void           *) 0,
-                    (OS_STK         *)&App_TaskStartStk[APP_CFG_TASK_START_STK_SIZE - 1],
-                    (INT8U           ) APP_CFG_TASK_START_PRIO,
-                    (INT16U          ) APP_CFG_TASK_START_PRIO,
-                    (OS_STK         *)&App_TaskStartStk[0],
-                    (INT32U          ) APP_CFG_TASK_START_STK_SIZE,
-                    (void           *) 0,
-                    (INT16U          )(OS_TASK_OPT_STK_CHK | OS_TASK_OPT_STK_CLR));
-
-#if (OS_TASK_NAME_EN == DEF_ENABLED)
-    OSTaskNameSet((INT8U  )APP_CFG_TASK_START_PRIO,
-                  (INT8U *)"Start Task",
-                  (INT8U *)&os_err);
-#endif
-
-    OSStart();                                                  /* Start multitasking (i.e. give control to uC/OS-II)       */
+                                           /* Start multitasking (i.e. give control to uC/OS-II)       */
 }
 
 /*

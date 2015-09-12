@@ -62,9 +62,9 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>76</YPos2>
-          <SelStart2>3131</SelStart2>
-          <SelEnd2>3131</SelEnd2>
+          <YPos2>26</YPos2>
+          <SelStart2>1862</SelStart2>
+          <SelEnd2>1862</SelEnd2>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
@@ -102,7 +102,6 @@
           <SelStart2>9923</SelStart2>
           <SelEnd2>9923</SelEnd2>
         </Tab>
-        <ActiveTab>3</ActiveTab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\..\app_cfg.h</Filename>
@@ -111,9 +110,9 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>73</YPos2>
-          <SelStart2>6452</SelStart2>
-          <SelEnd2>6452</SelEnd2>
+          <YPos2>28</YPos2>
+          <SelStart2>1636</SelStart2>
+          <SelEnd2>1636</SelEnd2>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
@@ -123,9 +122,9 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>223</YPos2>
-          <SelStart2>1043</SelStart2>
-          <SelEnd2>1043</SelEnd2>
+          <YPos2>103</YPos2>
+          <SelStart2>9203</SelStart2>
+          <SelEnd2>9203</SelEnd2>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
@@ -135,7 +134,7 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>235</YPos2>
+          <YPos2>0</YPos2>
           <SelStart2>8501</SelStart2>
           <SelEnd2>8501</SelEnd2>
         </Tab>
@@ -147,10 +146,11 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>158</YPos2>
+          <YPos2>0</YPos2>
           <SelStart2>7899</SelStart2>
           <SelEnd2>7899</SelEnd2>
         </Tab>
+        <ActiveTab>7</ActiveTab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\..\..\..\..\..\uC-CPU\cpu_core.h</Filename>
@@ -174,6 +174,18 @@
           <YPos2>0</YPos2>
           <SelStart2>0</SelStart2>
           <SelEnd2>0</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\..\..\..\uCOS-II\Source\os_tmr.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>878</YPos2>
+          <SelStart2>36569</SelStart2>
+          <SelEnd2>36569</SelEnd2>
         </Tab>
       </Pane>
       <ActivePane>0</ActivePane>

@@ -1956,12 +1956,6 @@
       <name>$PROJ_DIR$\..\app_hooks.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\app_serial.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\app_serial.h</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\cpu_cfg.h</name>
     </file>
     <file>
