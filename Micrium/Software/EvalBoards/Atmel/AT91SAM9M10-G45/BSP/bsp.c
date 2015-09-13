@@ -41,6 +41,12 @@
 #include  <os_cpu.h>
 
 
+void OS_CPU_ExceptHndlr(INT32U except_type)
+{
+    
+}
+
+
 /*
 *********************************************************************************************************
 *                                             REGISTER & BIT DEFINES

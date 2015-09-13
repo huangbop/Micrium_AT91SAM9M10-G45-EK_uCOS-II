@@ -1959,9 +1959,6 @@
       <name>$PROJ_DIR$\..\cpu_cfg.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\csp_cfg.h</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\includes.h</name>
     </file>
     <file>
@@ -2026,48 +2023,6 @@
     </file>
   </group>
   <group>
-    <name>uC/CSP</name>
-    <group>
-      <name>MCU</name>
-      <group>
-        <name>Atmel</name>
-        <group>
-          <name>AT91SAM9M10</name>
-          <group>
-            <name>AT91SAM9M10</name>
-            <file>
-              <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\Atmel\AT91SAM9M10\AT91SAM9M10\csp_dev.h</name>
-            </file>
-          </group>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\Atmel\AT91SAM9M10\csp_gpio.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\Atmel\AT91SAM9M10\csp_grp.h</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\Atmel\AT91SAM9M10\csp_int.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\Atmel\AT91SAM9M10\csp_pm.c</name>
-          </file>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\Atmel\AT91SAM9M10\csp_tmr.c</name>
-          </file>
-        </group>
-      </group>
-      <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\csp.c</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\csp.h</name>
-      </file>
-      <file>
-        <name>$PROJ_DIR$\..\..\..\..\..\uC-CSP\MCU\csp_types.h</name>
-      </file>
-    </group>
-  </group>
-  <group>
     <name>uC/LIB</name>
     <group>
       <name>ARM</name>
@@ -2112,21 +2067,6 @@
       <name>Ports</name>
       <group>
         <name>ARM</name>
-        <group>
-          <name>CSP</name>
-          <group>
-            <name>Atmel</name>
-            <group>
-              <name>AT91SAM9xxx</name>
-              <file>
-                <name>$PROJ_DIR$\..\..\..\..\..\uCOS-II\Ports\ARM\CSP\Atmel\AT91SAM9xxx\os_csp.c</name>
-              </file>
-            </group>
-          </group>
-          <file>
-            <name>$PROJ_DIR$\..\..\..\..\..\uCOS-II\Ports\ARM\CSP\os_csp.h</name>
-          </file>
-        </group>
         <group>
           <name>Generic</name>
           <group>
