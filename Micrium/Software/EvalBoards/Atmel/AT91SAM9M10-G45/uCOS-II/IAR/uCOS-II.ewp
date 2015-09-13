@@ -2008,12 +2008,6 @@
             <file>
               <name>$PROJ_DIR$\..\..\..\..\..\uCOS-II\Ports\ARM\Generic\IAR\os_cpu_c.c</name>
             </file>
-            <file>
-              <name>$PROJ_DIR$\..\..\..\..\..\uCOS-II\Ports\ARM\Generic\IAR\os_dbg.c</name>
-            </file>
-            <file>
-              <name>$PROJ_DIR$\..\..\..\..\..\uCOS-II\Ports\ARM\Generic\IAR\os_dcc.c</name>
-            </file>
           </group>
         </group>
       </group>
