@@ -2106,9 +2106,6 @@
       <name>$PROJ_DIR$\..\app_hooks.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\cpu_cfg.h</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\includes.h</name>
     </file>
     <file>
@@ -2143,33 +2140,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\BSP\bsp.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\BSP\cpu_bsp.c</name>
-    </file>
-  </group>
-  <group>
-    <name>uC/CPU</name>
-    <group>
-      <name>ARM</name>
-      <group>
-        <name>IAR</name>
-        <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\uC-CPU\ARM\IAR\cpu.h</name>
-        </file>
-        <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\uC-CPU\ARM\IAR\cpu_a.s</name>
-        </file>
-      </group>
-    </group>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-CPU\cpu_core.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-CPU\cpu_core.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-CPU\cpu_def.h</name>
     </file>
   </group>
   <group>

@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V7.40.3.8902/W32 for ARM                 13/Sep/2015  08:15:30
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 13/Sep/2015  08:19:51
 # Copyright 2007-2015 IAR Systems AB.
 #
 #    Output file  =  
@@ -11,9 +11,6 @@
 #        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\app.o
 #        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\app_hooks.o
 #        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\bsp.o
-#        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\cpu_a.o
-#        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\cpu_bsp.o
-#        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\cpu_core.o
 #        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\cstartup.o
 #        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\lib_ascii.o
 #        E:\hb\projects\Micrium_AT91SAM9M10-G45-EK_uCOS-II\Micrium\Software\EvalBoards\Atmel\AT91SAM9M10-G45\uCOS-II\IAR\SRAM\Obj\lib_math.o
