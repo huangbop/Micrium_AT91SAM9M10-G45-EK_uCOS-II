@@ -33,8 +33,6 @@
             <Session>
               <NodeDict>
                 <ExpandedNode>uCOS-II</ExpandedNode>
-                <ExpandedNode>uCOS-II/APP</ExpandedNode>
-                <ExpandedNode>uCOS-II/BSP</ExpandedNode>
               </NodeDict>
             </Session>
           </Tab>
@@ -261,39 +259,15 @@
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\app.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>60</YPos2>
-          <SelStart2>1193</SelStart2>
-          <SelEnd2>1193</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
-          <Filename>$WS_DIR$\..\..\BSP\bsp.c</Filename>
-          <XPos>0</XPos>
-          <YPos>0</YPos>
-          <SelStart>0</SelStart>
-          <SelEnd>0</SelEnd>
-          <XPos2>0</XPos2>
-          <YPos2>35</YPos2>
-          <SelStart2>1716</SelStart2>
-          <SelEnd2>1716</SelEnd2>
-        </Tab>
-        <Tab>
-          <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\..\os_cfg.h</Filename>
           <XPos>0</XPos>
           <YPos>0</YPos>
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>84</YPos2>
-          <SelStart2>4010</SelStart2>
-          <SelEnd2>4010</SelEnd2>
+          <YPos2>119</YPos2>
+          <SelStart2>6985</SelStart2>
+          <SelEnd2>6985</SelEnd2>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
@@ -351,11 +325,10 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>72</YPos2>
-          <SelStart2>3120</SelStart2>
-          <SelEnd2>3120</SelEnd2>
+          <YPos2>66</YPos2>
+          <SelStart2>2984</SelStart2>
+          <SelEnd2>2984</SelEnd2>
         </Tab>
-        <ActiveTab>24</ActiveTab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\..\..\..\..\..\uC-CPU\cpu_core.c</Filename>
@@ -400,9 +373,9 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>50</YPos2>
-          <SelStart2>937</SelStart2>
-          <SelEnd2>937</SelEnd2>
+          <YPos2>86</YPos2>
+          <SelStart2>4405</SelStart2>
+          <SelEnd2>4405</SelEnd2>
         </Tab>
         <Tab>
           <Factory>TextEditor</Factory>
@@ -412,10 +385,11 @@
           <SelStart>0</SelStart>
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
-          <YPos2>0</YPos2>
+          <YPos2>60</YPos2>
           <SelStart2>0</SelStart2>
           <SelEnd2>0</SelEnd2>
         </Tab>
+        <ActiveTab>27</ActiveTab>
         <Tab>
           <Factory>TextEditor</Factory>
           <Filename>$WS_DIR$\..\..\..\..\..\uCOS-II\Ports\ARM\Generic\IAR\os_cpu_c.c</Filename>
@@ -452,6 +426,30 @@
           <SelStart2>0</SelStart2>
           <SelEnd2>0</SelEnd2>
         </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\app.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>60</YPos2>
+          <SelStart2>1193</SelStart2>
+          <SelEnd2>1193</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\..\BSP\bsp.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>28</YPos2>
+          <SelStart2>8522</SelStart2>
+          <SelEnd2>8522</SelEnd2>
+        </Tab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
@@ -479,7 +477,7 @@
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>453</Bottom>
+                <Bottom>480</Bottom>
                 <Right>364</Right>
                 <x>-2</x>
                 <y>-2</y>
@@ -488,7 +486,7 @@
                 <sizeHorzCX>138889</sizeHorzCX>
                 <sizeHorzCY>241546</sizeHorzCY>
                 <sizeVertCX>254167</sizeVertCX>
-                <sizeVertCY>549517</sizeVertCY>
+                <sizeVertCY>582126</sizeVertCY>
               </Rect>
             </Wnd3>
           </Sizes>
@@ -506,14 +504,14 @@
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
-                <Bottom>330</Bottom>
+                <Bottom>303</Bottom>
                 <Right>1442</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>1444</xscreen>
-                <yscreen>332</yscreen>
+                <yscreen>305</yscreen>
                 <sizeHorzCX>1002778</sizeHorzCX>
-                <sizeHorzCY>400966</sizeHorzCY>
+                <sizeHorzCY>368357</sizeHorzCY>
                 <sizeVertCX>138889</sizeVertCX>
                 <sizeVertCY>241546</sizeVertCY>
               </Rect>
