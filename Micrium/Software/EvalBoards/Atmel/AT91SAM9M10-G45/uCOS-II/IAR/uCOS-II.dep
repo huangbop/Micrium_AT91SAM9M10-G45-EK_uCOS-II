@@ -2,7 +2,7 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>3886693955</fileChecksum>
+  <fileChecksum>37232793</fileChecksum>
   <configuration>
     <name>DDRAM</name>
     <outputs>
@@ -1535,7 +1535,7 @@
       <inputs>
         <tool>
           <name>ILINK</name>
-          <file> 433 184 293 12 14 290 172 386 196 180 273 309 243 283 165 263 159 9 20 152 249 235 395 237 224 366 132 26</file>
+          <file> 433 184 293 12 14 273 309 243 283 165 263 159 9 20 152 249 235 395 237 224 366 132 26</file>
         </tool>
       </inputs>
     </file>
@@ -3873,10 +3873,6 @@
     <forcedrebuild>
       <name>$PROJ_DIR$\app_probe.c</name>
       <tool>ICCARM</tool>
-    </forcedrebuild>
-    <forcedrebuild>
-      <name>[MULTI_TOOL]</name>
-      <tool>ILINK</tool>
     </forcedrebuild>
   </configuration>
 </project>

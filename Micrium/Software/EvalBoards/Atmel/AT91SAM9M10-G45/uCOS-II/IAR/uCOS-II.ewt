@@ -2109,9 +2109,6 @@
       <name>$PROJ_DIR$\..\includes.h</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\lib_cfg.h</name>
-    </file>
-    <file>
       <name>$PROJ_DIR$\..\os_cfg.h</name>
     </file>
   </group>
@@ -2140,45 +2137,6 @@
     </file>
     <file>
       <name>$PROJ_DIR$\..\..\BSP\bsp.h</name>
-    </file>
-  </group>
-  <group>
-    <name>uC/LIB</name>
-    <group>
-      <name>ARM</name>
-      <group>
-        <name>IAR</name>
-        <file>
-          <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\Ports\ARM\IAR\lib_mem_a.asm</name>
-        </file>
-      </group>
-    </group>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_ascii.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_ascii.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_def.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_math.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_math.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_mem.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_mem.h</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_str.c</name>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\..\..\..\..\..\uC-LIB\lib_str.h</name>
     </file>
   </group>
   <group>
